@@ -33,7 +33,7 @@ console.log (results);
 else if(eventType === "semi-casual" && tempFahr > 70){
  result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event. You should wear a polo and no jacket.`
 console.log(result);
-
+}
 if(eventType === "formal" && tempFahr < 54){
 results = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event. You should wear a suit and a coat`;
 console.log (results);
@@ -47,3 +47,4 @@ console.log (results);
 else if (eventType === "formal" && tempFahr > 70){
 result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event. You should wear a suit and no jacket.`
 console.log(result);
+}
